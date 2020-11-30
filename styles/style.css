@@ -66,6 +66,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  z-index: 1;
   /* выше установили ограничения для секции */
 }
 
@@ -75,7 +76,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  z-index: 3;
 }
 
 .header__subtitle {
@@ -86,11 +86,19 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 3;
 }
 
 .header_link {
   text-decoration: none;
+}
+
+.header_link:hover {
+  color:black;
+  outline: black dotted;
+}
+
+.header_link:active {
+  text-decoration: underline;
 }
 
 .header__main-illustration {
@@ -99,7 +107,6 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 2;
 }
 
 .header__square-pic {
@@ -109,7 +116,7 @@
   position: absolute;
   top: 64px;
   right: 0;
-  z-index: 1;
+  z-index: -1;
 }
 
 
@@ -240,6 +247,14 @@
   margin: 0;
 }
 
+.feynman__link:hover {
+  color:  black;
+  outline: black dotted;
+}
+
+.feynman__link:active {
+  text-decoration: underline;
+}
 
 /* Секция kaufman */
 
@@ -247,6 +262,7 @@
   background-color: black;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -265,7 +281,6 @@
 .table__cell_theme_dark {
   width: 200px;
   padding-top: 80px;
-  z-index: 2;
 }
 
 .table__heading_theme_dark {
@@ -283,7 +298,7 @@
   position: absolute;
   top: 0;
   right: -210px;
-  z-index: 1;
+  z-index: -1;
 }
 
 
@@ -354,6 +369,16 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
+}
+
+.footer__column-link:hover {
+  color: black;
+  background-color: white;
+}
+
+.footer__column-link:active {
+  color: #2f80ed;
+  background-color: black;
 }
 
 .footer__social-icon {
