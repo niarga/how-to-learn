@@ -1,0 +1,13 @@
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color:black;
+  outline: black dotted;
+}
+
+.header__link:active {
+  text-decoration: underline;
+}
