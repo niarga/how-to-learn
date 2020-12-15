@@ -8,32 +8,3 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-/* видимые границы для проверки
-.header,
-.logo,
-.header__title,
-.table,
-.table__cell,
-.table__heading,
-.table__text,
-.section-title,
-.section-subtitle,
-.feynman,
-.feynman__title,
-.feynman__subtitle,
-.feynman__link,
-.kaufman,
-.footer,
-.footer__columns,
-.footer__column_content_copyright,
-.footer__column_content_info,
-.footer__column_content_social,
-.footer__author,
-.footer__column-heading,
-.footer__column-links,
-.footer__column-link,
-.footer__social-icon {
-  border: 1px solid red;
-}
-*/

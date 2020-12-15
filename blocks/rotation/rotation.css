@@ -1,0 +1,21 @@
+ @keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s linear infinite normal running;
+}
+
+
+/* Ниже более простой вариант - трансформация, но нет бесконечного вращения */
+/*
+.rotation {
+  transition: transform 20s linear;
+  transform: rotate(360deg);
+}
+*/
